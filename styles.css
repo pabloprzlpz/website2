@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #041A33;
+  color: #FFFFFF;
+}
+
+.navbar a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #0A3D73;
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  background-color: #F8F9FA;
+}
+
+h1, h2, h3 {
+  color: #041A33;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #041A33;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  section {
+    padding: 1rem;
+  }
+}
